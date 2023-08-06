@@ -1,0 +1,46 @@
+.mainCont {
+  display: flex;
+  margin-top: 3rem;
+  width: auto !important;
+}
+.labelWithRadio {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.textCont {
+  width: 20%;
+}
+.dataCont {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.SingleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  padding: 30px 10px;
+  background-color: rgb(79 122 72);
+}
+
+.imgCont {
+  width: 180px;
+}
+.imgCont > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+}
+.ratePrice {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.star {
+  color: #fdcc0d;
+  font-size: 20px;
+}
