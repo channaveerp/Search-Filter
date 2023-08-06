@@ -44,3 +44,12 @@
   color: #fdcc0d;
   font-size: 20px;
 }
+@media only screen and (max-width:500px) {
+  .dataCont {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 1.8rem;
+  }
+}
